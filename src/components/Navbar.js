@@ -55,7 +55,7 @@ export default function Navbar(props) {
 
         </ul>
         <button className="btn my-2 my-sm-0" type="button"  onClick={props.toggleMode}>
-          {/* {props.mode} */}
+
           <img
             src={props.mode==='light'?light:dark}
             alt=""
